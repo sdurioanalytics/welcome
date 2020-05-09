@@ -1,0 +1,37 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+psycopg2-binary = "*"
+whitenoise = "*"
+django-cas-ng = "*"
+django-import-export = "*"
+django-pandas = "*"
+scikit-learn = "*"
+nltk = "*"
+rake-nltk = {git = "https://github.com/csurfer/rake-nltk.git"}
+django-money = "*"
+django-braces = "*"
+django-crispy-forms = "*"
+django-apscheduler = {git = "https://github.com/jarekwg/django-apscheduler.git"}
+azure-keyvault-secrets = "==4.0.0"
+azure-identity = "==1.0.1"
+opencensus-ext-azure = "*"
+opencensus-ext-django = "*"
+opencensus-ext-postgresql = "*"
+opencensus-ext-logging = "*"
+django-debug-toolbar = "*"
+isort = "*"
+py-googletrans = {git = "https://github.com/JV-conseil-Internet-Consulting/py-googletrans.git"}
+ndg-httpsclient = "*"
+pyasn1 = "*"
+Django = "==3.*"
+pyOpenSSL = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.8"
