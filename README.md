@@ -1,5 +1,12 @@
 # Django's Good Coding Practices (PEP8)
 
+![Deploy Django Web App to Azure](https://github.com/sdurioanalytics/sdurioanalytics/workflows/Deploy%20Django%20Web%20App%20to%20Azure/badge.svg?branch=master&event=push)
+[![Django](https://img.shields.io/badge/Django-2.2.3-green.svg)](https://www.djangoproject.com/weblog/2019/jul/01/security-releases/)
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/sdurioanalytics/sdurioanalytics)
+[![PostgreSQL 11](https://img.shields.io/badge/PostgreSQL-11-green.svg)](https://www.postgresql.org/)
+[![License BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE)
+[![Follow JV conseil – Internet Consulting on Twitter](https://img.shields.io/twitter/follow/JVconseil.svg?style=social&logo=twitter)](https://twitter.com/JVconseil)
+
 When initiating a work partnership with `SDU RIO Analytics` please follow **[Django’s Coding Style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/)** to match your code against these guidelines. Further reading:
 - [Django’s Coding Style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/)
 - [Designing Better Models](https://simpleisbetterthancomplex.com/tips/2018/02/10/django-tip-22-designing-better-models.html)
