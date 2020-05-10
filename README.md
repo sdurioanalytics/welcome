@@ -44,3 +44,7 @@ jQuery == 3.4.1
 DataTables == 1.10.20
 Highcharts JS == 8.0.4
 ```
+
+#### SDU Styling Guide:
+
+- [SDU Brandguide](http://anygivenmonday.org/clients/sdu/brandguide/#farver)
