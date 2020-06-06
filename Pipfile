@@ -13,11 +13,11 @@ django-import-export = "*"
 django-pandas = "*"
 scikit-learn = "*"
 nltk = "*"
-rake-nltk = {git = "https://github.com/csurfer/rake-nltk.git"}
+rake-nltk = {git = "https://github.com/sdurioanalytics/rake-nltk"}
 django-money = "*"
 django-braces = "*"
 django-crispy-forms = "*"
-django-apscheduler = {git = "https://github.com/jarekwg/django-apscheduler.git"}
+django-apscheduler = {git = "https://github.com/sdurioanalytics/django-apscheduler"}
 azure-keyvault-secrets = "==4.0.0"
 azure-identity = "==1.0.1"
 opencensus-ext-azure = "*"
@@ -29,9 +29,11 @@ isort = "*"
 py-googletrans = {git = "https://github.com/JV-conseil-Internet-Consulting/py-googletrans.git"}
 ndg-httpsclient = "*"
 pyasn1 = "*"
-Django = "==3.*"
+Django = ">=3.0.7"
 pyOpenSSL = "*"
 pylint = "*"
+pytz = "*"
+python-docx = "*"
 
 [requires]
 python_version = "3.8"
