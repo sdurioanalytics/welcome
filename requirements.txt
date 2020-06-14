@@ -82,14 +82,15 @@ django-crispy-forms
 #
 # git+git://github.com/jarekwg/django-apscheduler
 # git+https://github.com/jarekwg/django-apscheduler.git#egg=django-apscheduler
-git+https://github.com/sdurioanalytics/django-apscheduler#egg=django-apscheduler
+# git+https://github.com/sdurioanalytics/django-apscheduler#egg=django-apscheduler
+googletrans >= 3.0.0
 #
 # Azure Key Vault libraries for Python
 # https://docs.microsoft.com/en-us/python/api/overview/azure/key-vault?view=azure-python
 # https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/keyvault/azure-keyvault-secrets
 #
-azure-keyvault-secrets==4.0.0
-azure-identity==1.0.1
+azure-keyvault-secrets == 4.0.0
+azure-identity == 1.0.1
 #
 # Application Insights
 # Azure Monitor for your Python application

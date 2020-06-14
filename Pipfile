@@ -34,6 +34,7 @@ pyOpenSSL = "*"
 pylint = "*"
 pytz = "*"
 python-docx = "*"
+googletrans = ">=3.0.0"
 
 [requires]
 python_version = "3.8"
