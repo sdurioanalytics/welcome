@@ -82,8 +82,7 @@ django-crispy-forms
 #
 # git+git://github.com/jarekwg/django-apscheduler
 # git+https://github.com/jarekwg/django-apscheduler.git#egg=django-apscheduler
-# git+https://github.com/sdurioanalytics/django-apscheduler#egg=django-apscheduler
-googletrans >= 3.0.0
+git+https://github.com/sdurioanalytics/django-apscheduler#egg=django-apscheduler
 #
 # Azure Key Vault libraries for Python
 # https://docs.microsoft.com/en-us/python/api/overview/azure/key-vault?view=azure-python
@@ -128,7 +127,8 @@ pylint
 #
 # git+git://github.com/ssut/py-googletrans
 # git+git://github.com/JV-conseil-Internet-Consulting/py-googletrans
-git+https://github.com/JV-conseil-Internet-Consulting/py-googletrans.git#egg=py-googletrans
+# git+https://github.com/JV-conseil-Internet-Consulting/py-googletrans.git#egg=py-googletrans
+googletrans >= 3.0.0
 # google-cloud-translate==2.0.0
 # 
 # Translate is a simple but powerful translation tool written in python with with support for multiple translation providers. 
@@ -138,8 +138,8 @@ git+https://github.com/JV-conseil-Internet-Consulting/py-googletrans.git#egg=py-
 #
 # requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
 # https://stackoverflow.com/a/38854398/2477854
-pyopenssl
-ndg-httpsclient
-pyasn1
+# pyopenssl
+# ndg-httpsclient
+# pyasn1
 # 
 python-docx

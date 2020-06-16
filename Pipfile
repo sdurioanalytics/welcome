@@ -26,15 +26,10 @@ opencensus-ext-postgresql = "*"
 opencensus-ext-logging = "*"
 django-debug-toolbar = "*"
 isort = "*"
-py-googletrans = {git = "https://github.com/JV-conseil-Internet-Consulting/py-googletrans.git"}
-ndg-httpsclient = "*"
-pyasn1 = "*"
-Django = ">=3.0.7"
-pyOpenSSL = "*"
 pylint = "*"
-pytz = "*"
-python-docx = "*"
 googletrans = ">=3.0.0"
+python-docx = "*"
+Django = ">=3.0.7"
 
 [requires]
 python_version = "3.8"
