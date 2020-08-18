@@ -1,7 +1,7 @@
 # Django's Good Coding Practices (PEP8)
 
 ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/sdurioanalytics/welcome?color=green)
-[![Django 3.0.6](https://img.shields.io/badge/Django-3.0.6-green)](https://www.djangoproject.com/weblog/2019/jul/01/security-releases/)
+[![Django 3.1](https://img.shields.io/badge/Django-3.1-green)](https://www.djangoproject.com/weblog/2020/aug/04/django-31-released/)
 [![PostgreSQL 12.2](https://img.shields.io/badge/PostgreSQL-12.2-green.svg)](https://www.postgresql.org/)
 [![License BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE)
 [![Follow JV conseil – Internet Consulting on Twitter](https://img.shields.io/twitter/follow/JVconseil.svg?style=social&logo=twitter)](https://twitter.com/JVconseil)
