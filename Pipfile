@@ -25,7 +25,7 @@ opencensus-ext-django = "*"
 opencensus-ext-postgresql = "*"
 opencensus-ext-logging = "*"
 django-debug-toolbar = "*"
-isort = "*"
+isort = {git = "https://github.com/timothycrosley/isort"}
 pylint = "*"
 googletrans = ">=3.0.0"
 python-docx = "*"

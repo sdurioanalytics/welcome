@@ -114,7 +114,8 @@ django-debug-toolbar
 # Use isort to automate import sorting
 # https://github.com/timothycrosley/isort#installing-isort
 #
-isort
+# isort >= 5.4.2
+git+https://github.com/timothycrosley/isort#egg=isort
 #
 # Pylint is a Python static code analysis tool which looks for programming errors, 
 # helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions.
