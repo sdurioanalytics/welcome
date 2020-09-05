@@ -6,7 +6,7 @@
 # cd ~/virtualenv
 # sudo pip3 install -r requirements.txt
 #
-Django >= 3.0.7
+Django >= 3.1
 psycopg2-binary
 whitenoise
 #
