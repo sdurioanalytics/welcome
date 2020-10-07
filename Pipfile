@@ -16,7 +16,6 @@ nltk = "*"
 rake-nltk = {git = "https://github.com/sdurioanalytics/rake-nltk"}
 django-money = "*"
 django-braces = "*"
-django-crispy-forms = "*"
 django-apscheduler = {git = "https://github.com/sdurioanalytics/django-apscheduler"}
 azure-keyvault-secrets = "==4.0.0"
 azure-identity = "==1.0.1"
@@ -29,7 +28,7 @@ isort = {git = "https://github.com/timothycrosley/isort"}
 pylint = "*"
 googletrans = ">=3.0.0"
 python-docx = "*"
-Django = ">=3.1"
+Django = ">=3.1.1"
 
 [requires]
 python_version = "3.8"

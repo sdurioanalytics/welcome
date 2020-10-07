@@ -6,7 +6,7 @@
 # cd ~/virtualenv
 # sudo pip3 install -r requirements.txt
 #
-Django >= 3.1
+Django >= 3.1.1
 psycopg2-binary
 whitenoise
 #
@@ -49,10 +49,6 @@ nltk
 # git+https://github.com/csurfer/rake-nltk.git#egg=rake-nltk
 git+https://github.com/sdurioanalytics/rake-nltk#egg=rake-nltk
 #
-# Rake NLP
-#
-#git+git://github.com/JV-conseil-Internet-Consulting/rake-nlp
-#
 # A little Django app that uses py-moneyed to add support for Money fields in your models and forms.
 django-money
 # spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
@@ -68,7 +64,7 @@ django-braces
 # Cripsy Forms
 # src: https://django-crispy-forms.readthedocs.io/en/latest/install.html#installing-django-crispy-forms
 #
-django-crispy-forms
+# django-crispy-forms
 #
 # django-crontab
 # src: https://github.com/kraiz/django-crontab/tree/978a26d547f1004ee286d08e31625bfbcee28811
