@@ -6,7 +6,7 @@
 # cd ~/virtualenv
 # sudo pip3 install -r requirements.txt
 #
-Django >= 3.1.1
+Django >= 3.1.2
 psycopg2-binary
 whitenoise
 #
@@ -64,7 +64,7 @@ django-braces
 # Cripsy Forms
 # src: https://django-crispy-forms.readthedocs.io/en/latest/install.html#installing-django-crispy-forms
 #
-# django-crispy-forms
+django-crispy-forms
 #
 # django-crontab
 # src: https://github.com/kraiz/django-crontab/tree/978a26d547f1004ee286d08e31625bfbcee28811
