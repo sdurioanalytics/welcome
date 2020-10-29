@@ -1,20 +1,9 @@
-#
-# Requirements
-# src: https://gist.github.com/Siltaar/9441a525d3a580311035fa2f3f431baa
-# 
-# In Terminal enter:
-# cd ~/virtualenv
-# sudo pip3 install -r requirements.txt
-#
 Django >= 3.1.2
 psycopg2-binary
 whitenoise
 #
 # django-cas-ng 4.1.1
 # https://pypi.org/project/django-cas-ng/
-#
-# New setting CAS_FORCE_SSL_SERVICE_URL forces the service url to always target HTTPS
-# https://djangocas.dev/docs/4.0/changelog.html
 #
 django-cas-ng
 #
@@ -24,34 +13,24 @@ django-cas-ng
 # https://django-import-export.readthedocs.io/en/latest/installation.html
 #
 django-import-export
-#
-# @shabab7 please review `requirements.txt` 
-# for unused packages which would decrease 
-# the Web App performances as a whole.
-#
-#django-filter # in use? — JV conseil, 20200305
-#plotly-express # in use? — JV conseil, 20200305
-#mpld3 # in use? — JV conseil, 20200305
-#jinja2 # in use? — JV conseil, 20200305
-#matplotlib # in use? — JV conseil, 20200305
-#django-group-by # in use? — JV conseil, 20200305
 django_pandas
-#xlrd
-#
-# rake-nltk
-# Loading Rake NTLK from GitHub master
-# fresher version than Python lib on 
-# https://pypi.org/project/rake-nltk/
-#
 scikit-learn
 nltk
+#
+# Loading Rake NTLK from GitHub master fresher version than Python lib on 
+# https://pypi.org/project/rake-nltk/
+# rake-nltk
 # git+git://github.com/csurfer/rake-nltk
 # git+https://github.com/csurfer/rake-nltk.git#egg=rake-nltk
+#
 git+https://github.com/sdurioanalytics/rake-nltk#egg=rake-nltk
 #
 # A little Django app that uses py-moneyed to add support for Money fields in your models and forms.
+#
 django-money
+#
 # spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more.
+#
 #spacy
 # 
 # SuperuserRequiredMixin 
@@ -78,7 +57,9 @@ django-crispy-forms
 #
 # git+git://github.com/jarekwg/django-apscheduler
 # git+https://github.com/jarekwg/django-apscheduler.git#egg=django-apscheduler
-git+https://github.com/sdurioanalytics/django-apscheduler#egg=django-apscheduler
+# git+https://github.com/sdurioanalytics/django-apscheduler#egg=django-apscheduler
+#
+django-apscheduler >= 0.5.0
 #
 # Azure Key Vault libraries for Python
 # https://docs.microsoft.com/en-us/python/api/overview/azure/key-vault?view=azure-python
@@ -105,12 +86,14 @@ opencensus-ext-logging
 #
 # A good way to keep the track of the number of executed queries is using the Django Debug Toolbar.
 # https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
+#
 django-debug-toolbar
 #
 # Use isort to automate import sorting
 # https://github.com/timothycrosley/isort#installing-isort
 #
 # isort >= 5.4.2
+#
 git+https://github.com/timothycrosley/isort#egg=isort
 #
 # Pylint is a Python static code analysis tool which looks for programming errors, 
@@ -125,8 +108,8 @@ pylint
 # git+git://github.com/ssut/py-googletrans
 # git+git://github.com/JV-conseil-Internet-Consulting/py-googletrans
 # git+https://github.com/JV-conseil-Internet-Consulting/py-googletrans.git#egg=py-googletrans
+#
 googletrans >= 3.0.0
-# google-cloud-translate==2.0.0
 # 
 # Translate is a simple but powerful translation tool written in python with with support for multiple translation providers. 
 # By now we are integrated with Microsoft Translation API and Translated MyMemory API

@@ -17,7 +17,7 @@ rake-nltk = {git = "https://github.com/sdurioanalytics/rake-nltk"}
 django-money = "*"
 django-braces = "*"
 django-crispy-forms = "*"
-django-apscheduler = {git = "https://github.com/sdurioanalytics/django-apscheduler"}
+django-apscheduler = ">=0.5.0"
 azure-keyvault-secrets = "==4.0.0"
 azure-identity = "==1.0.1"
 opencensus-ext-azure = "*"

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "38511e16fb49f22aeab1b7f450c92c5cf4c120666afd81e3334f78e4c81ebbd8"
+            "sha256": "1b56fa744f4cd2b56543ada8be8fe589a019025676b2047adae947e59aaf1a06"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -192,8 +192,11 @@
             "version": "==3.1.2"
         },
         "django-apscheduler": {
-            "git": "https://github.com/sdurioanalytics/django-apscheduler",
-            "ref": "04a7a349f7632602865b90d9886edc43261c9ec0"
+            "hashes": [
+                "sha256:9f00a68e5e4481e3df7088d4386bd1d2f1a2d17c3e8edd78e04554761faee49d"
+            ],
+            "index": "pypi",
+            "version": "==0.5.0"
         },
         "django-braces": {
             "hashes": [
@@ -786,7 +789,7 @@
                 "sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c",
                 "sha256:75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.8.1"
         },
         "python-docx": {
@@ -938,7 +941,7 @@
                 "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
                 "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.15.0"
         },
         "sniffio": {
@@ -992,7 +995,7 @@
                 "sha256:9ad44aaf0fc3697c06f6e05c7cf025dd66bc7bcb7613c66d85f4464c47ac8fad",
                 "sha256:ef54779f1c09f346b2b5a8e5c61f96fbcb639929e640e59f8cf810794f406432"
             ],
-            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1'",
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==4.51.0"
         },
         "tzlocal": {
