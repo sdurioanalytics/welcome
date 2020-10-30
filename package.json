@@ -1,0 +1,27 @@
+{
+  "name": "welcome",
+  "version": "1.0.0",
+  "description": "![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/sdurioanalytics/welcome?color=green) [![Django 3.1](https://img.shields.io/badge/Django-3.1-green)](https://www.djangoproject.com/weblog/2020/aug/04/django-31-released/) [![PostgreSQL 12.2](https://img.shields.io/badge/PostgreSQL-12.2-green.svg)](https://www.postgresql.org/) [![License BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE) [![Follow JV conseil – Internet Consulting on Twitter](https://img.shields.io/twitter/follow/JVconseil.svg?style=social&logo=twitter)](https://twitter.com/JVconseil)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdurioanalytics/welcome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdurioanalytics/welcome/issues"
+  },
+  "homepage": "https://github.com/sdurioanalytics/welcome#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "datatables": "^1.10.18",
+    "highcharts": "^8.2.2",
+    "jquery": "^3.5.1",
+    "typeahead.js": "^0.11.1"
+  }
+}
