@@ -1,16 +1,16 @@
-Django >= 3.1.2
+Django >= 3.1.3
 psycopg2-binary
 whitenoise
 #
 # django-cas-ng 4.1.1
-# https://pypi.org/project/django-cas-ng/
+# > https://pypi.org/project/django-cas-ng/
 #
-django-cas-ng
+django-cas-ng >= 4.1.1
 #
 # django-import-export is a Django application and library 
 # for importing and exporting data in multiple formats (Excel, CSV, JSON, … and everything else that tablib supports) 
 # with included admin integration.
-# https://django-import-export.readthedocs.io/en/latest/installation.html
+# > https://django-import-export.readthedocs.io/en/latest/installation.html
 #
 django-import-export
 django_pandas
@@ -18,11 +18,10 @@ scikit-learn
 nltk
 #
 # Loading Rake NTLK from GitHub master fresher version than Python lib on 
-# https://pypi.org/project/rake-nltk/
+# > https://pypi.org/project/rake-nltk/
 # rake-nltk
 # git+git://github.com/csurfer/rake-nltk
 # git+https://github.com/csurfer/rake-nltk.git#egg=rake-nltk
-#
 git+https://github.com/sdurioanalytics/rake-nltk#egg=rake-nltk
 #
 # A little Django app that uses py-moneyed to add support for Money fields in your models and forms.
@@ -36,14 +35,14 @@ django-money
 # SuperuserRequiredMixin 
 # This is specifically for requiring a user to be a superuser. 
 # Comes in handy for tools that only privileged users should have access to.
-# https://django-braces.readthedocs.io/en/latest/access.html#superuserrequiredmixin
+# > https://django-braces.readthedocs.io/en/latest/access.html#superuserrequiredmixin
 #
 django-braces
 #
 # Cripsy Forms
 # src: https://django-crispy-forms.readthedocs.io/en/latest/install.html#installing-django-crispy-forms
 #
-django-crispy-forms
+django-crispy-forms >= 1.9.2
 #
 # django-crontab
 # src: https://github.com/kraiz/django-crontab/tree/978a26d547f1004ee286d08e31625bfbcee28811
@@ -71,8 +70,8 @@ azure-identity == 1.0.1
 # Application Insights
 # Azure Monitor for your Python application
 # OpenCensus Django Integration
-# https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-django
-# https://docs.microsoft.com/fr-fr/azure/azure-monitor/app/opencensus-python#instrument-with-opencensus-python-sdk-for-azure-monitor
+# > https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-django
+# > https://docs.microsoft.com/fr-fr/azure/azure-monitor/app/opencensus-python#instrument-with-opencensus-python-sdk-for-azure-monitor
 #
 opencensus-ext-azure
 opencensus-ext-django
@@ -80,36 +79,24 @@ opencensus-ext-postgresql
 opencensus-ext-logging
 #
 # django-pipeline
-# https://django-pipeline.readthedocs.io/en/latest/installation.html
+# > https://django-pipeline.readthedocs.io/en/latest/installation.html
 #
 #django-pipeline
 #
-# A good way to keep the track of the number of executed queries is using the Django Debug Toolbar.
-# https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
-#
-django-debug-toolbar
-#
-# Use isort to automate import sorting
-# https://github.com/timothycrosley/isort#installing-isort
-#
-# isort >= 5.4.2
-#
-git+https://github.com/timothycrosley/isort#egg=isort
-#
-# Pylint is a Python static code analysis tool which looks for programming errors, 
-# helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions.
-# https://pypi.org/project/pylint/
-# 
-pylint
-#
 # googletrans
-# https://pypi.org/project/googletrans/
+# > https://pypi.org/project/googletrans/
 #
 # git+git://github.com/ssut/py-googletrans
 # git+git://github.com/JV-conseil-Internet-Consulting/py-googletrans
 # git+https://github.com/JV-conseil-Internet-Consulting/py-googletrans.git#egg=py-googletrans
 #
 googletrans >= 3.0.0
+#
+# Translators is a library which aims to bring free, multiple, enjoyable translation to individuals and students in Python. 
+# It based on the translation interface of Google, Yandex, Microsoft(Bing), Baidu, Alibaba, Tencent, NetEase(Youdao), Sogou, Deepl, etc.
+# > https://pypi.org/project/translators/
+# 
+translators >= 4.7.11
 # 
 # Translate is a simple but powerful translation tool written in python with with support for multiple translation providers. 
 # By now we are integrated with Microsoft Translation API and Translated MyMemory API
@@ -117,9 +104,14 @@ googletrans >= 3.0.0
 # translate
 #
 # requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
-# https://stackoverflow.com/a/38854398/2477854
+# > https://stackoverflow.com/a/38854398/2477854
 # pyopenssl
 # ndg-httpsclient
 # pyasn1
 # 
-python-docx
+# python-docx
+#
+# A good way to keep the track of the number of executed queries is using the Django Debug Toolbar.
+# > https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
+#
+django-debug-toolbar >= 3.1.1
