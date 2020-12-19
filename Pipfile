@@ -22,7 +22,7 @@ opencensus-ext-azure = "*"
 opencensus-ext-django = "*"
 opencensus-ext-postgresql = "*"
 opencensus-ext-logging = "*"
-googletrans = ">=3.0.0"
+google-trans-new = {git = "https://github.com/JV-conseil-Internet-Consulting/google_trans_new"}
 translators = ">=4.7.11"
 django-debug-toolbar = ">=3.1.1"
 Django = ">=3.1.3"

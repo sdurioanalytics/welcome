@@ -89,8 +89,13 @@ opencensus-ext-logging
 # git+git://github.com/ssut/py-googletrans
 # git+git://github.com/JV-conseil-Internet-Consulting/py-googletrans
 # git+https://github.com/JV-conseil-Internet-Consulting/py-googletrans.git#egg=py-googletrans
+#googletrans >= 3.0.0
 #
-googletrans >= 3.0.0
+# google_trans_new
+# Version 1.1.9
+# > https://github.com/lushan88a/google_trans_new
+# google_trans_new
+git+https://github.com/JV-conseil-Internet-Consulting/google_trans_new#egg=google_trans_new
 #
 # Translators is a library which aims to bring free, multiple, enjoyable translation to individuals and students in Python. 
 # It based on the translation interface of Google, Yandex, Microsoft(Bing), Baidu, Alibaba, Tencent, NetEase(Youdao), Sogou, Deepl, etc.
