@@ -9,7 +9,7 @@ whitenoise = "*"
 django-cas-ng = ">=4.1.1"
 django-import-export = "*"
 django-pandas = "*"
-scikit-learn = "*"
+scikit-learn = ">=0.24.1"
 nltk = "*"
 rake-nltk = {git = "https://github.com/sdurioanalytics/rake-nltk"}
 django-money = "*"
@@ -22,10 +22,9 @@ opencensus-ext-azure = "*"
 opencensus-ext-django = "*"
 opencensus-ext-postgresql = "*"
 opencensus-ext-logging = "*"
-google-trans-new = {git = "https://github.com/JV-conseil-Internet-Consulting/google_trans_new"}
-translators = ">=4.7.11"
 django-debug-toolbar = ">=3.1.1"
-Django = ">=3.1.3"
+elsapy = "*"
+Django = ">=3.1.5"
 
 [dev-packages]
 pylint = ">=2.6.0"

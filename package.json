@@ -1,7 +1,7 @@
 {
   "name": "sdurioanalytics",
-  "version": "2.11",
-  "description": "![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/sdurioanalytics/welcome?color=green) [![Django 3.1](https://img.shields.io/badge/Django-3.1-green)](https://www.djangoproject.com/weblog/2020/aug/04/django-31-released/) [![PostgreSQL 12.2](https://img.shields.io/badge/PostgreSQL-12.2-green.svg)](https://www.postgresql.org/) [![License BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE) [![time tracker](https://wakatime.com/badge/github/sdurioanalytics/sdurioanalytics.svg)](https://wakatime.com/badge/github/sdurioanalytics/sdurioanalytics) [![Follow JV conseil – Internet Consulting on Twitter](https://img.shields.io/twitter/follow/JVconseil.svg?style=social&logo=twitter)](https://twitter.com/JVconseil)",
+  "version": "3.1",
+  "description": "SDU RIO Analytics Data Tools Django Web Apps. SDU Research & Innovation Organisation (RIO) supports collaboration between research, education, the business community and the public sector.",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -24,13 +24,13 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@fortawesome/fontawesome-free": "^5.15.1",
-    "bootstrap": "^4.5.3",
-    "datatables.net-bs4": "^1.10.22",
+    "bootstrap": "^4.6.0",
+    "datatables.net-bs4": "^1.10.23",
     "datatables.net-buttons-bs4": "^1.6.5",
-    "datatables.net-responsive-bs4": "^2.2.6",
-    "datatables.net-searchpanes-bs4": "^1.2.1",
+    "datatables.net-responsive-bs4": "^2.2.7",
+    "datatables.net-searchpanes-bs4": "^1.2.2",
     "datatables.net-select-bs4": "^1.3.1",
-    "highcharts": "^8.2.2",
+    "highcharts": "^9.0.0",
     "jquery": "^3.5.1",
     "jszip": "^3.5.0",
     "pdfmake": "^0.1.68",
@@ -40,6 +40,7 @@
     "@babel/cli": "^7.12.8",
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
-    "babel-preset-minify": "^0.5.1"
+    "babel-preset-minify": "^0.5.1",
+    "eslint": "^7.17.0"
   }
 }
