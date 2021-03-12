@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "davidanson.vscode-markdownlint",
+        "editorconfig.editorconfig",
+        "ms-python.python",
+        "timonwong.shellcheck"
+    ]
+}

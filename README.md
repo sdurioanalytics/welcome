@@ -17,12 +17,15 @@ When initiating a work partnership with `SDU RIO Analytics` please follow **[Dja
 
 #### SDU RIO Analytics Technical Perimeter as a `requirements.txt` file
 
-1. `PostgreSQL v9.6.20` &nbsp; :arrow_right: &nbsp; `PostgreSQL v12.5`
-1. `Django v3.1.5` &nbsp; :arrow_right: &nbsp; `Django v3.1.7`
-1. `Python v3.8.7` &nbsp; :arrow_right: &nbsp; `Python v3.8.8_1`
+1. `PostgreSQL v12.5` &nbsp; :arrow_right: &nbsp; `PostgreSQL v12.x`
+1. `Django v3.1.7` &nbsp; :arrow_right: &nbsp; `Django v3.1.x`
+1. `Python v3.8.8_1` &nbsp; :arrow_right: &nbsp; `Python v3.8.8_1`
 1. `Bootstrap v4.6.0` &nbsp; :arrow_right: &nbsp; `Bootstrap v4.6.0`
-1. `DataTables v1.10.23` &nbsp; :arrow_right: &nbsp; `DataTables v1.10.23`
-1. `Highcharts v8.2.2` &nbsp; :arrow_right: &nbsp; `Highcharts v9.0.0`
+1. `DataTables v1.10.24` &nbsp; :arrow_right: &nbsp; `DataTables v1.10.24`
+1. `Highcharts v9.0.1` &nbsp; :arrow_right: &nbsp; `Highcharts v9.0.1`
+1. `jQuery v3.6.0` &nbsp; :arrow_right: &nbsp; `jQuery v3.6.0`
+1. `PURE Api v5.19` &nbsp; :arrow_right: &nbsp; `PURE Api v5.19`
+1. `work_mem 8192` Azure Database for PostgreSQL server parameters `none`
 
 #### [How to Use Flake8](https://simpleisbetterthancomplex.com/packages/2016/08/05/flake8.html)
 
